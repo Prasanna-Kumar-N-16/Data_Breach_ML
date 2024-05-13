@@ -72,7 +72,7 @@ def main():
    # plt.savefig(os.path.join(os.getcwd(), 'images', 'tree.png'))
     #plt.close()
 
-
+    '''
     model, history = build_neural_network(train_X, train_y, test_X, test_y)
 
     history_dict = history.history
@@ -87,6 +87,7 @@ def main():
     plt.legend()
     plt.savefig(os.path.join(os.getcwd(), 'images', 'mae.png'))
     plt.close()
+    '''
 
 
    
